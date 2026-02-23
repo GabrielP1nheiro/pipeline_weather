@@ -16,9 +16,6 @@ PostgreSQL 16 – Banco de dados para armazenamento dos dados
 
 Docker & Docker Compose – Containerização da aplicação
 
-Redis – Broker para CeleryExecutor (Airflow)
-
-
 
 <img width="2768" height="970" alt="arquitetura_de_dados_draw" src="https://github.com/user-attachments/assets/edee3fa9-bdb6-46cc-93b1-a31951f6e6a7" />
 
@@ -33,4 +30,5 @@ Transformação / Normalização – Ajusta dados, formata timestamps e converte
 Carregamento – Salva os dados processados no banco weather_data (tabela sp_weather).
 
 As tarefas estão orquestradas no DAG weather_dag.py.
+
 
